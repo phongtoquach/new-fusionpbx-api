@@ -222,7 +222,7 @@ export class RingGroupsService {
           console.log(err);
         }
         else {
-          console.log(`File ${file_path} da bi xoa!`);
+          console.log(`File ${file_path} has been deleted successfully!`);
         }
       });
 
