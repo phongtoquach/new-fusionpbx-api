@@ -221,7 +221,9 @@ export class RingGroupsService {
         if (err) {
           console.log(err);
         }
-        console.log(`File ${file_path} da bi xoa!`);
+        else {
+          console.log(`File ${file_path} da bi xoa!`);
+        }
       });
 
 
